@@ -1,0 +1,13 @@
+{
+  "general":{
+    "pt": "PT",
+    "en": "EN",
+    "header":{
+      "works": "Trabalhos",
+      "about": "Sobre",
+      "contact": "Contato",
+      "inContact": "Entre em contato"
+    }
+  }
+
+}

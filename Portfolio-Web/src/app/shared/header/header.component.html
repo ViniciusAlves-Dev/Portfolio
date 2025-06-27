@@ -1,0 +1,26 @@
+<div class="main">
+    <div class="col-md-12">
+        <div class="logo">
+            <img src="/src/assets/img/logoPortfolio.png" alt="logo">
+        </div>
+        <div class="nav-itens">
+            <div id="works">
+                {{'general.header.works' | translate}}
+            </div>
+            <div id="about">
+                {{'general.header.about' | translate}}
+            </div>
+            <div id="contact">
+                {{'general.header.contact' | translate}}
+            </div>
+        </div>
+        <div>
+            <app-button-primary
+            [label] = "'inContact'  | translate"
+            />
+            <button id="pt">Pt</button>
+            <span> | </span>
+            <button id="en">En</button>
+        </div>
+    </div>
+</div>
